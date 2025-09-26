@@ -1,0 +1,12 @@
+widgets:
+  - id: lu4w0CqVLmzAlIQ07mKU-1
+    item:
+      host: "CTQ-BT-PB-SW03-217-36069"
+      key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1014]"
+    thresholds:
+      - value: 70
+        color: "red"
+      - value: 50
+        color: "yellow"
+      - value: 0
+        color: "green"
