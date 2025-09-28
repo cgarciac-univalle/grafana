@@ -1,62 +1,33 @@
-#------------------------------------------------------------------------------
-# Panel Config para Flow con Zabbix
+mappings:
+  - id: ilhWgvqXPUFKbLJfaN1g-1
+    label: "AMERICA_FO"
+    metric: america_temp
+    thresholds:
+      - value: 40
+        color: "green"
+      - value: 60
+        color: "orange"
+      - value: 80
+        color: "red"
 
-cellIdPreamble: "cell-"
+  - id: ilhWgvqXPUFKbLJfaN1g-2
+    label: "TIQUIPAYA_FO"
+    metric: tiquipaya_temp
+    thresholds:
+      - value: 40
+        color: "green"
+      - value: 60
+        color: "orange"
+      - value: 80
+        color: "red"
 
-cells: 
-  AMERICA_FO:
-    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
-    label:
-      separator: "cr"
-      units: "°C"
-      decimalPoints: 1
-    fillColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
-    labelColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
-
-  TIQUIPAYA_FO:
-    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1016]"
-    label:
-      separator: "cr"
-      units: "°C"
-      decimalPoints: 1
-    fillColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
-    labelColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
-
-  AYACUCHO_FO:
-    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1017]"
-    label:
-      separator: "cr"
-      units: "°C"
-      decimalPoints: 1
-    fillColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
-    labelColor:
-      gradientMode: "none"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 40}
-        - {color: "red", level: 70}
+  - id: ilhWgvqXPUFKbLJfaN1g-3
+    label: "AYACUCHO_FO"
+    metric: ayacucho_temp
+    thresholds:
+      - value: 40
+        color: "green"
+      - value: 60
+        color: "orange"
+      - value: 80
+        color: "red"
