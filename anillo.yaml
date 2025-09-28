@@ -1,0 +1,62 @@
+#------------------------------------------------------------------------------
+# Panel Config para Flow con Zabbix
+
+cellIdPreamble: "cell-"
+
+cells: 
+  AMERICA_FO:
+    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
+    label:
+      separator: "cr"
+      units: "°C"
+      decimalPoints: 1
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
+
+  TIQUIPAYA_FO:
+    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1016]"
+    label:
+      separator: "cr"
+      units: "°C"
+      decimalPoints: 1
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
+
+  AYACUCHO_FO:
+    dataRef: "sensor.temp.value[ciscoEnvMonTemperatureValue.1017]"
+    label:
+      separator: "cr"
+      units: "°C"
+      decimalPoints: 1
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "orange", level: 40}
+        - {color: "red", level: 70}
