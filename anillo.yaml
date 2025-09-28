@@ -1,7 +1,7 @@
 widgets:
   - id: ilhWgvqXPUFKbLJfaN1g-1
     item:
-      host: "AMERICA-SWITCH"
+      host: "AMERICA_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
     text: true
     thresholds:
@@ -11,7 +11,7 @@ widgets:
 
   - id: ilhWgvqXPUFKbLJfaN1g-2
     item:
-      host: "TIQUIPAYA-SWITCH"
+      host: "TIQUIPAYA_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
     text: true
     thresholds:
@@ -21,10 +21,11 @@ widgets:
 
   - id: ilhWgvqXPUFKbLJfaN1g-3
     item:
-      host: "AYACUCHO-SWITCH"
+      host: "AYACUCHO_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
     text: true
     thresholds:
       - { value: 40, color: "green" }
       - { value: 60, color: "orange" }
       - { value: 80, color: "red" }
+
