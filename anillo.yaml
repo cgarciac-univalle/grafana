@@ -1,33 +1,30 @@
-mappings:
+widgets:
   - id: ilhWgvqXPUFKbLJfaN1g-1
-    label: "AMERICA_FO"
-    metric: america_temp
+    item:
+      host: "AMERICA-SWITCH"
+      key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
+    text: true
     thresholds:
-      - value: 40
-        color: "green"
-      - value: 60
-        color: "orange"
-      - value: 80
-        color: "red"
+      - { value: 40, color: "green" }
+      - { value: 60, color: "orange" }
+      - { value: 80, color: "red" }
 
   - id: ilhWgvqXPUFKbLJfaN1g-2
-    label: "TIQUIPAYA_FO"
-    metric: tiquipaya_temp
+    item:
+      host: "TIQUIPAYA-SWITCH"
+      key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
+    text: true
     thresholds:
-      - value: 40
-        color: "green"
-      - value: 60
-        color: "orange"
-      - value: 80
-        color: "red"
+      - { value: 40, color: "green" }
+      - { value: 60, color: "orange" }
+      - { value: 80, color: "red" }
 
   - id: ilhWgvqXPUFKbLJfaN1g-3
-    label: "AYACUCHO_FO"
-    metric: ayacucho_temp
+    item:
+      host: "AYACUCHO-SWITCH"
+      key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
+    text: true
     thresholds:
-      - value: 40
-        color: "green"
-      - value: 60
-        color: "orange"
-      - value: 80
-        color: "red"
+      - { value: 40, color: "green" }
+      - { value: 60, color: "orange" }
+      - { value: 80, color: "red" }
