@@ -3,7 +3,6 @@ widgets:
     item:
       host: "AMERICA_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
-    text: true
     thresholds:
       - { value: 40, color: "green" }
       - { value: 60, color: "orange" }
@@ -13,7 +12,6 @@ widgets:
     item:
       host: "TIQUIPAYA_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
-    text: true
     thresholds:
       - { value: 40, color: "green" }
       - { value: 60, color: "orange" }
@@ -23,9 +21,9 @@ widgets:
     item:
       host: "AYACUCHO_FO"
       key: "sensor.temp.value[ciscoEnvMonTemperatureValue.1015]"
-    text: true
     thresholds:
       - { value: 40, color: "green" }
       - { value: 60, color: "orange" }
       - { value: 80, color: "red" }
+
 
